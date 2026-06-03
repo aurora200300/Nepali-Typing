@@ -1,0 +1,25 @@
+{
+  "name": "preeti-typing-pro-server-windows-fixed",
+  "version": "2.1.0",
+  "description": "Windows-friendly backend API for PreetiFont Nepali Typing Practice Pro. No native SQLite build tools required.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "reset": "node src/seed.js --reset"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
